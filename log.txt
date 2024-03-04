@@ -1,0 +1,44 @@
+
+  501  mkdir Assess_0073
+  502  pwd
+  503  cd Assess_0073
+  504  mkdir img
+  505  touch a.txt
+  506  touch a.html
+  507  touch a.c
+  508  git init
+  509  git status
+  510  git add .
+  511  git add .
+  512  git status
+  513  git commit -m"the first commit"
+  514  vi a.c
+  515  git add .
+  516  git commit -m"the second commit only c modified"
+  517  vi a.txt
+  518  vi a.html
+  519  git add .
+  520  git commit -m"the third commit only txt and html modified"
+  521  git remote add origin https://github.com/Divanshu-Singla/Assess_0073.git
+  522  [200~git push -u origin master
+  523  git push -u origin master
+  524  vi .gitignore
+  525  git add .
+  526  git commit -m""
+  527  git commit -m"ignore file"
+  528  cp * img/
+  529  cd img
+  530  ls
+  531  git status
+  532  cd ..
+  533  git status
+  534  cd img
+  535  vi a.txt
+  536  vi a.c
+  537  vi a.htl
+  538  git status
+  539  history
+  540  touch log.txt
+  541  cd ..
+  542  git status
+  543  history > log.txt
